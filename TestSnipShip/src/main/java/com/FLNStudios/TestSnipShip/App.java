@@ -32,7 +32,7 @@ public class App {
         exitButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                startFrame.setVisible(false);
+                startFrame.dispose();
             }
         });
         startPanel.add(new JLabel("Input seconds before snip."));

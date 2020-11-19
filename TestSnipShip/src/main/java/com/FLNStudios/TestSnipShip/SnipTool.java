@@ -93,7 +93,6 @@ public class SnipTool extends Thread {
             resultFrame.setVisible(true);
         } catch (AWTException | TesseractException | InterruptedException | IOException ae) {
         }
-        interrupt();
     }
 
     public void setSeconds(int s) {
